@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CGameFramework.h" />
+    <ClInclude Include="GameFramework.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="LabProject02.h" />
     <ClInclude Include="Resource.h" />
@@ -131,7 +131,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CGameFramework.cpp" />
+    <ClCompile Include="GameFramework.cpp" />
     <ClCompile Include="LabProject02.cpp" />
     <ClCompile Include="Stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

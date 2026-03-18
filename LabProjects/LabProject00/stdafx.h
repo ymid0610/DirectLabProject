@@ -13,3 +13,24 @@
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
+
+#include <string>
+#include <wrl.h>
+#include <shellapi.h>
+
+#include <d3d12.h>
+#include <dxgi1_4.h>
+
+#include <D3Dcompiler.h>
+
+#include <DirectXMath.h>
+#include <DirectXPackedVector.h>
+#include <DirectXColors.h>
+#include <DirectXCollision.h>
+
+#include <DXGIDebug.h>
+
+using namespace DirectX;
+using namespace DirectX::PackedVector;
+
+using Microsoft::WRL::ComPtr;

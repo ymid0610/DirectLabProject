@@ -1,5 +1,7 @@
 #pragma once
 #include "Timer.h"
+#include "Scene.h"
+
 class CGameFramework
 {
 private:
@@ -27,7 +29,7 @@ private:
 	UINT m_nSwapChainBufferIndex;	//현재 스왑 체인의 후면 버퍼 인덱스이다.
 	
 	//렌더 타겟 버퍼, 서술자 힙 인터페이스 포인터, 렌더 타겟 서술자 원소의 크기이다.
-	ID3D12Resource *m_ppd3dSwapChainBackBuffers[m_nSwapChainBuffers];
+	ID3D12Resource * m_ppd3dRenderTargetBuffers[m_nSwapChainBuffers];
 	ID3D12DescriptorHeap* m_pd3dRtvDescriptorHeap;
 	UINT m_nRtvDescriptorIncrementSize;
 
@@ -46,7 +48,7 @@ private:
 
 	//펜스 인터페이스 포인터, 펜스의 값, 이벤트 핸들이다.
 	ID3D12Fence *m_pd3dFence;
-	UINT64 m_nFenceValue;
+	UINT64 m_nFenceValues[m_nSwapChainBuffers]; // 후면버퍼마다 현재의 펜스 값을 관리하기 위하여 m_nFenceValue 멤버 변수 수정 [26.03.19]
 	HANDLE m_hFenceEvent;
 
 	//뷰포트와 씨저 사각형이다.
@@ -58,6 +60,8 @@ private:
 
 	//다음은 프레임 레이트를 주 윈도우의 캡션에 출력하기 위한 문자열이다. 
 	_TCHAR m_pszFrameRate[50];
+
+	CScene* m_pScene;
 
 public:
 	CGameFramework();
@@ -94,5 +98,7 @@ public:
 	LRESULT CALLBACK OnProcessingWindowMessage(HWND hWnd, UINT nMessageID, WPARAM wParam, LPARAM lParam);
 
 	void ChangeSwapChainState();
+
+	void MoveToNextFrame();
 };
 

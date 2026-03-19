@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -27,10 +24,13 @@
     <ClInclude Include="LabProject03.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\LabProject02\stdafx.h">
+    <ClInclude Include="Timer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\LabProject02\GameFramework.h">
+    <ClInclude Include="GameFramework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,10 +38,13 @@
     <ClCompile Include="LabProject03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\LabProject02\GameFramework.cpp">
+    <ClCompile Include="Timer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\LabProject02\Stdafx.cpp">
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

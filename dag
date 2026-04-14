@@ -1,0 +1,146 @@
+[33mcommit effbfed1d9021473e1c93c3d3b6d7e9b2b7d6600[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 4b4705c 4ba8df8
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 23:04:38 2026 +0900
+
+    Merge branch 'main' of https://github.com/ymid0610/DirectLabProject
+
+[33mcommit 4b4705ca456ab9fd8573a06ec64cf584cfbe20a0[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 22:59:59 2026 +0900
+
+    Revert "LabProject06 모든 class 구현완료, hlsl 추가"
+    
+    This reverts commit 55d2fa184a6dc997187c774428257bb976147a2b.
+
+[33mcommit 55d2fa184a6dc997187c774428257bb976147a2b[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 22:49:15 2026 +0900
+
+    LabProject06 모든 class 구현완료, hlsl 추가
+
+[33mcommit 4ba8df8695ea555208dad68c97a678cfb985c6c1[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 22:49:15 2026 +0900
+
+    LabProject06 모든 class 구현완료, hlsl 추가
+
+[33mcommit e074ea5c9944b8342833f764c6f620e8b4534ed4[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 21:15:25 2026 +0900
+
+    Class Shader, Mesh, GameObject 추가
+
+[33mcommit 29f81ffdd32997ff90ec6b12d5c1f44aea64a787[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Apr 14 21:06:45 2026 +0900
+
+    LabProject06 복사생성
+
+[33mcommit 9cd0cfbd8a372e21bfe8e74c26d149622cc11a09[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 25 21:38:43 2026 +0900
+
+    pdf 파일 업로드
+
+[33mcommit df24236f415170fee7356218602d31b751f43ed8[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Fri Mar 20 01:32:09 2026 +0900
+
+    LabProject05 구현
+
+[33mcommit c2fcbf29aee269f3fc1ef771e528c3f3d9582a25[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 21:27:47 2026 +0900
+
+    LabProject05 생성
+
+[33mcommit 3612ec3842e5945d45254046b30b0c056e04f72e[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 20:53:11 2026 +0900
+
+    LabProject04 f9 버튼시 전체화면 전환 되도록 구현
+
+[33mcommit 4f22afb13d209baec3f3e9f75e5370588d871262[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 20:20:02 2026 +0900
+
+    LabProject04 생성, error로 인해 Present 한개만 사용하도록 수정
+
+[33mcommit 00802862e3f071722c508ebf85ba216c5852b30b[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 18:21:32 2026 +0900
+
+    클래스 Timer 생성및 구현
+
+[33mcommit 4d19f7055af895655cfd431f76560e16fbc29fb4[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 17:24:55 2026 +0900
+
+    LabProject03 생성 및 기존 파일 추가
+
+[33mcommit 0f9bacdbcaa9a4269c67da97249308f4e80ab6d4[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 15:15:06 2026 +0900
+
+    LabProject02.cpp 수정
+
+[33mcommit 3838706656442c83080fd523ce8bf36d526ec23d[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Thu Mar 19 15:07:18 2026 +0900
+
+    CGameFramework cpp 생성 및 구현
+
+[33mcommit b324143bf3b6efacdaf4b5b0a8a8ab6c784bd1d0[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:58:46 2026 +0900
+
+    CGameFramework 기본 생성자, 소멸자 생성
+
+[33mcommit 3e71ef7dcf8cf15ef67308c96cf622ea80782905[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:55:39 2026 +0900
+
+    CGameFramework 클래스 생성
+
+[33mcommit 86b77257ce2e33a9ec03ecef97b1f0a0899e4fe3[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:51:15 2026 +0900
+
+    stdafx.h 임포트 라이브러리 추가, 후면버퍼 크기 상수 추가
+
+[33mcommit 2833fa523072d482ce7dd6c1f012f32db0a5042b[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:28:13 2026 +0900
+
+    LabProject02 초기설정
+
+[33mcommit 198c31f2fc2889100fdb3f009af1bdd2c2f60ec7[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:23:57 2026 +0900
+
+    stdafx.h Direct3D 관련있는 헤더파일 추가
+
+[33mcommit 39777edb03f4858e671bb464800a401c4c6cdb20[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:23:17 2026 +0900
+
+    LabProject02 생성
+
+[33mcommit a7c687611a4987f674a45306be534ddf0ba9df5f[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Wed Mar 18 16:12:53 2026 +0900
+
+    파일명 변경, LabProject01 생성, 윈도우 크기 640,480 변경해보기 - 따라하기 02
+
+[33mcommit 8f53c06ce735ad210584df6e9406b990564085b2[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Mar 17 15:00:49 2026 +0900
+
+    초기 커밋.
+
+[33mcommit 869930f71def3bf45ced9bf41c4de3fbf00dcf40[m
+Author: ymid0610 <ymid0610@gmail.com>
+Date:   Tue Mar 17 15:00:47 2026 +0900
+
+    .gitattributes, .gitignore 및 README.md을(를) 추가합니다.

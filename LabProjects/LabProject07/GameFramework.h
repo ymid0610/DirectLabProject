@@ -1,6 +1,7 @@
 #pragma once
 #include "Timer.h"
 #include "Scene.h"
+#include "Camera.h"
 
 class CGameFramework
 {
@@ -51,10 +52,6 @@ private:
 	UINT64 m_nFenceValues[m_nSwapChainBuffers]; // 후면버퍼마다 현재의 펜스 값을 관리하기 위하여 m_nFenceValue 멤버 변수 수정 [26.03.19]
 	HANDLE m_hFenceEvent;
 
-	//뷰포트와 씨저 사각형이다.
-	D3D12_VIEWPORT m_d3dViewport;
-	D3D12_RECT m_d3dScissorRect;
-
 	//다음은 게임 프레임워크에서 사용할 타이머이다. 
 	CGameTimer m_GameTimer;
 
@@ -66,6 +63,8 @@ private:
 public:
 	CGameFramework();
 	~CGameFramework();
+
+	CCamera* m_pCamera = NULL;
 
 	bool OnCreate(HINSTANCE hInstance, HWND hMainWnd);	//프레임워크를 초기화하는 함수이다. (주 윈도우가 생성되면 호출된다).
 
